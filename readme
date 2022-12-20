@@ -1,0 +1,13 @@
+This script is for use with the Waveshare 5.65 epaper display. It is an adapted version of the sample script found here:
+https://github.com/waveshare/e-Paper/tree/master/RaspberryPi_JetsonNano/python/examples
+
+The script:
+- Prints the current date and time to the screen
+- Reads the list of files in the picdir into a list
+- Works through a for loop displaying each picture in the list
+- A randmon value between 1000 and 2000 is created and used for the sleep delay to the next picture
+
+Images can be converted for use using GIMP:
+  - Resize the image to 600 x 440 pixels
+  - Go to Colours --> Posterize and change the posterize level to 256
+  - Export the file as a Windows BMP
